@@ -1,1 +1,59 @@
 /* Write your CSS here! */
+
+.funParagraph{
+    color: green;
+}
+
+html{
+    font-size: 16px;
+    background-color:royalblue;
+}
+#mainHeading{
+    color:red;
+}
+
+main{
+/*Limit the width of the text to make it easier to read*/
+max-width: 1200px;
+/*Centers the Main element*/
+margin-left: auto;
+margin-right: auto;
+}
+body{
+    margin: 8px;
+    display: block;
+}
+h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.centered {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+#banner-Destiny {
+    /*Chose rem to multiply the font in regards to the default font of the webpage*/
+    font-size: 8rem;
+    color: white;
+    /*To scale the banner to 100% of the width of the page*/
+    width: 100%;
+    /*Set a banner as the background of the text*/
+    background-image: url("https://help.bungie.net/hc/article_attachments/8691514424340/d2_s18_DPS_Banner_Lightfall.jpg");
+    /*Streches the image to full width, not repeating*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*These two properties are used for outlining the text, found it on codes dope.com (https://www.codesdope.com/blog/article/adding-outline-to-text-using-css/)*/
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    padding: 10rem 0;
+}
+
+p {
+    font-size: 2rem;
+}
